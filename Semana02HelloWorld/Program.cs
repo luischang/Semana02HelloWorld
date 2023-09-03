@@ -42,3 +42,5 @@ var busquedaDNI = personas
 var busquedaLINQ = (from p in personas
                     where p.Dni == 20205050
                     select p).FirstOrDefault();
+
+Console.WriteLine("Finalizando ejercicio");
